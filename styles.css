@@ -1,17 +1,41 @@
 * {
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
     background-color: rgb(255, 250, 221);
 }
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 26, 26);
+    color: white;
+    padding-bottom: 16px;
+}
+
 
 .intro {
     text-align: center;
 }
 
-.main {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: auto;
+
+.recipes {
+    display: flex;
+    margin: 10px 36px 10px 80px;
+}
+
+.recipes img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border: 2px solid rgb(176, 26, 26);
+    border-radius: 10px;
 }
 
 .links {
@@ -20,6 +44,3 @@
     padding: 8px;
   }
 
-  * {
-    box-sizing: border-box;
-  }
