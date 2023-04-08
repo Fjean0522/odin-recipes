@@ -4,4 +4,6 @@
 
 body img {
     object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(176, 26, 26);
 }
