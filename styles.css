@@ -9,6 +9,7 @@ body {
     background-color: rgb(255, 250, 221);
 }
 
+/* HERO */
 .hero {
     display: flex;
     flex-wrap: wrap;
@@ -19,15 +20,12 @@ body {
     padding-bottom: 16px;
 }
 
-
-.intro {
-    text-align: center;
-}
-
-
+/* RECIPES */
 .recipes {
     display: flex;
-    margin: 10px 36px 10px 80px;
+    justify-content: center;
+    margin-top: 48px;
+    gap: 3rem;
 }
 
 .recipes img {
@@ -38,9 +36,4 @@ body {
     border-radius: 10px;
 }
 
-.links {
-    float: left;
-    width: 33.33%;
-    padding: 8px;
-  }
 
