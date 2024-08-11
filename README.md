@@ -3,8 +3,7 @@
 This Recipe website consists of a main index page, and three linked recipe pages of custom recipes.
 
 # Live site
-https://top-odin-recipes.netlify.app/
-
+https://fjean0522.github.io/odin-recipes/
 ## 1 Author
 Fjean0522
 
